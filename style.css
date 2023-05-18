@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script:wght@500&display=swap');
+
+body {
+    font-family: "Advent Pro", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* *********************************NAVBAR******************************* */
+
+nav {
+    overflow: hidden;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Dancing Script';, arial;
+    font-weight: bold;
+    float: left;
+}
+
+/* *********************************IMAGE PRINCIPALE************************** */
+img {
+    width: 200px;
+    height: 200px;
+}   
+#imageprincipale {
+    padding-top: 60px;
+    background: url(photo/villa4.jpeg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Dancing Script' , arial;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 110px;
+    text-shadow: 1px 2px 3px black;
+}
+#premiertrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: blanchedalmond;
+    box-shadow: 1px 2px 3px black;
+}
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 1px 2px 3px black;
+}
+/* ************************PRESENTATION************************** */
+
+#présentation {
+    background-color: beige;
+    padding: 10px 0px 100px 0px;
+}
+#texteintro {
+    padding: 0px 20%;
+}
+
+#prestation_container {
+    display: flex;
+    justify-content: space-between;
+}
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imageprestation h4{
+    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imageprestation img {
+    border-radius: 10px;
+    box-shadow: 4px 0px 8px 3px #0d0d0c85;
+    
+}
+.imageprestation img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.06s ease-in-out;
+}
+/* *****************************TOURISME*************************** */
+
+#tourisme {
+    height: 1400px;
+    background-color: lightgrey;
+    padding: 1px 2%;
+}
+
+#tourisme h2 {
+    padding-top: 60px;
+}
+
+#miroir {
+    background: url(photo/miroir.jpeg);
+    background-size: cover;
+}
+
+#promenade {
+    background: url(photo/promenade.jpeg) center bottom;
+    background-size: cover;
+}
+
+#centre-ville {
+    background: url(photo/centre-ville.jpeg);
+    background-size: cover;
+}
+
+#crique {
+    background: url(photo/crique.jpeg);
+    background-size: cover;
+}
+
+#tourisme li{
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 1px 2px 3px 4px black; 
+}
+#tourisme p {
+    height: 45px;
+    width: 235px;
+    background-color: burlywood;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 1px 2px 3px 4px black;
+}
