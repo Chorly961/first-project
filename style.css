@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script:wght@500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Advent Pro", sans-serif;
     padding: 0;
@@ -155,7 +159,7 @@ h3 {
     width: 55%;
     max-width: 550px;
     float: left;
-    box-shadow: 1px 2px 3px 4px black; 
+    box-shadow: 1px 2px 17px 0px black;
 }
 #tourisme p {
     height: 45px;
@@ -166,5 +170,83 @@ h3 {
     font-size: 1.5em;
     text-align: center;
     padding-top: 15px;
-    box-shadow: 1px 2px 3px 4px black;
+    box-shadow: 1px 2px 17px 0px black;
 }
+#tourisme #promenade {
+    float: right;
+}
+#tourisme #crique {
+    float: right;
+}
+#promenade p, #crique p {
+    float: left;
+    background-color: aquamarine;
+    margin-left: -180px;
+}
+/* ******************************************FOOTER****************************** */
+
+footer {
+    background-color: rosybrown;
+    color: bisque;
+    padding: 20px 0 10px 0px;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1,2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px  ;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1,5em;
+    background-color: bisque;
+}
+button:hover {
+    background-color: peru;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxièmetrait {
+    height: 1px;
+    width: 75%;
+    background-color: blanchedalmond;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copiright {
+    width: 50%;
+    text-align: left;
+    color: blanchedalmond;
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: antiquewhite;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+
+}
+
+@media (max-width: 500px) {}
